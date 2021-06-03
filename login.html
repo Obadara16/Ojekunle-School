@@ -1,0 +1,85 @@
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script> 
+</head>
+
+<body>
+<div class="top"><a href="login.html"><span>Student</span></a> |  <a href="#"><span>Mail</span></a>  </div>
+<div class="logo" align="center"><img src="img/logo.jpg" /></div>
+<br><br>
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">B.O.U.T</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-between" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Academics
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="academics.html">Undergraduate</a>
+            <a class="dropdown-item" href="#">Postgraduate</a>
+            <a class="dropdown-item" href="#">Distance Learning</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="administration.html">Administration</a>
+        </li>
+      </ul>
+      
+      <ul class="navbar-nav ">
+        <li class="nav-item active">
+          <a class="nav-link" href="signup.html"><span class="glyphicon glyphicon-user">Sign Up</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="login.html"><span class="glyphicon glyphicon-user">Login</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>  
+  <div class="side-bar"
+    <div class="tiles2">
+      <h1>Signing into the portal</h1>
+      <br/>
+      <ol>
+        <li> 
+        Your Username is the username supplied during registration on this portal</li>
+        <li>Your Password is your Surname eg DanjumaIf</li>
+      </ol>
+      <p>Forgot password?</p>
+      <p> Click here to <a href="#" style="color:red">reset</a></p>
+    </div>
+  </div>
+
+  <div class="wide-bar">
+    <div class="login">
+      <h1 style="color:dodgerblue;">Student Login:</h1>
+      <br/>
+      <form method="post" action="admission.html">
+        <lable>Username</lable><br />
+        <input type="text" class="wrap" name="username" required="required"/>
+        <br/><br/><br/>
+        <lable>Password</lable><br />
+        <input name="username" class="wrap" type="password" required="required" />
+        <br/><br/><br/><br/>
+        <button type="submit">Sign in</button>
+        <br/><br/>
+        <a href="forget.html">forget Password/ cant acces my Page</a>
+      </form>
+    </div>
+  </div>
+</div>
+  <hr/>
+
+<footer align="center"><div><span>&copy; 2018. All Right Reserved</span> | <span>Project By: Bose Ojekunle Sherifa</span></div></footer>
+</body>
+</html>
